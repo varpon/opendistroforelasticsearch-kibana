@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	opendistroforelasticsearch-kibana
-PORTVERSION=	1.3.0
+PORTVERSION=	1.4.0
 CATEGORIES=	textproc www
 MASTER_SITES=	https://d3g5vo6xdbdb9a.cloudfront.net/tarball/opendistroforelasticsearch-kibana/
 
