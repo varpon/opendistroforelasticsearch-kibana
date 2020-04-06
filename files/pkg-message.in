@@ -1,0 +1,14 @@
+[
+{ type: upgrade
+  maximum_version: "1.6.0"
+  message: <<EOM
+If you want to disable  the newsfeed and sending telemetry to Elasticsearch you
+can add these lines to the end of your %%ETCDIR%%/kibana.yml:
+
+newsfeed.enabled: false
+telemetry.optIn: false
+telemetry.enabled: false
+
+EOM
+}
+]

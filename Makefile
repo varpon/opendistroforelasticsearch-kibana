@@ -2,7 +2,7 @@
 # $FreeBSD$
 
 PORTNAME=	opendistroforelasticsearch-kibana
-PORTVERSION=	1.3.0
+PORTVERSION=	1.6.0
 CATEGORIES=	textproc www
 MASTER_SITES=	https://d3g5vo6xdbdb9a.cloudfront.net/tarball/opendistroforelasticsearch-kibana/
 
@@ -11,7 +11,7 @@ COMMENT=	Apache 2.0-licensed Browser based analytics and search interface to Ela
 
 LICENSE=	APACHE20
 
-RUN_DEPENDS=	node10>=10.15.2:www/node10
+RUN_DEPENDS=	node10>=10.19.0:www/node10
 
 CONFLICTS=	kibana[3-5]*
 
